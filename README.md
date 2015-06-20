@@ -10,12 +10,12 @@ ltsview
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/Takahiro OKUMURA/ltsview
+$ go get -d github.com/tacahilo/ltsview
 ```
 
 ## Contribution
 
-1. Fork ([https://github.com/Takahiro OKUMURA/ltsview/fork](https://github.com/Takahiro OKUMURA/ltsview/fork))
+1. Fork ([https://github.com/tacahilo/ltsview/fork](https://github.com/tacahilo/ltsview/fork))
 1. Create a feature branch
 1. Commit your changes
 1. Rebase your local changes against the master branch
@@ -25,4 +25,4 @@ $ go get -d github.com/Takahiro OKUMURA/ltsview
 
 ## Author
 
-[Takahiro OKUMURA](https://github.com/Takahiro OKUMURA)
+[OKUMURA Takahiro](https://github.com/tacahilo)
