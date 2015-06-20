@@ -7,15 +7,17 @@ import (
 )
 
 func main() {
-	app := cli.NewApp()
-	app.Name = "ltsview"
-	app.Version = Version
-	app.Usage = ""
-	app.Author = "Takahiro OKUMURA"
-	app.Email = "hfm.garden@gmail.com"
-	app.Action = doMain
-	app.Run(os.Args)
-}
 
-func doMain(c *cli.Context) {
+	app := cli.NewApp()
+	app.Name = Name
+	app.Version = Version
+	app.Author = "Tacahilo"
+	app.Email = "hfm.garden@gmail.com"
+	app.Usage = ""
+
+	app.Flags = GlobalFlags
+	app.Commands = Commands
+	app.CommandNotFound = CommandNotFound
+
+	app.Run(os.Args)
 }
